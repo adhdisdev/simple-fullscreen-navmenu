@@ -7,9 +7,9 @@ let menuButton = document.getElementById('menu-button');
 
 // Menu placement animation
 let menuAnim = gsap.fromTo(menuPaper, 1, {
-    translateY: "100%"
+    translateX: "100%"
 }, {
-    translateY: "0%",
+    translateX: "0%",
     ease: Power3.easeInOut
 });
 
